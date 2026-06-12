@@ -8,7 +8,7 @@ Run `repropilot check .` to see whether another person can actually understand y
 [![repro hygiene](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Antai-Liu/repropilot/main/.repropilot/badge.json)](https://github.com/Antai-Liu/repropilot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-<!-- GIF: repropilot check . on a plain repo → 62/100 + fix list → add DATA.md + seed → rerun → 84/100 → badge appears -->
+![ReproPilot demo](demo.gif)
 
 ---
 
