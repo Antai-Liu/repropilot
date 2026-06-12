@@ -1,0 +1,6 @@
+batch_size: 32
+data_path: data/
+device: cpu
+epochs: 3
+lr: 0.001
+seed: 42

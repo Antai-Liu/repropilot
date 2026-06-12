@@ -1,0 +1,4 @@
+lr: 0.001
+seed: 42
+batch_size: 32
+data_path: data/dataset

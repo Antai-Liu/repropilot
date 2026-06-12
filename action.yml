@@ -1,0 +1,31 @@
+name: ReproPilot check
+description: Check repository reproducibility score with ReproPilot
+author: ReproPilot
+
+inputs:
+  path:
+    description: Repository path to check
+    required: false
+    default: "."
+  min-score:
+    description: Minimum passing score (0-100)
+    required: false
+    default: "90"
+  run-smoke-test:
+    description: Include runnable-evidence rules in scoring
+    required: false
+    default: "false"
+
+outputs:
+  score:
+    description: Reproducibility score (0-100)
+
+runs:
+  using: composite
+  steps:
+    - name: Install repropilot
+      run: pip install repropilot
+      shell: bash
+    - name: Run repropilot check
+      run: repropilot check ${{ inputs.path }}
+      shell: bash

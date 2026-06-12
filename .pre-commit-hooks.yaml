@@ -1,0 +1,7 @@
+- id: repropilot-check
+  name: ReproPilot reproducibility check
+  description: Verify repository reproducibility score meets threshold (>= 90).
+  language: python
+  entry: repropilot check
+  pass_filenames: false
+  always_run: true
