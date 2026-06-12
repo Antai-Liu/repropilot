@@ -5,7 +5,6 @@
 Run `repropilot check .` to see whether another person can actually understand your data, environment, training command, evaluation flow, and saved results — before they waste an afternoon trying to run your repo.
 
 [![CI](https://github.com/Antai-Liu/repropilot/actions/workflows/ci.yml/badge.svg)](https://github.com/Antai-Liu/repropilot/actions)
-[![repro hygiene](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Antai-Liu/repropilot/main/.repropilot/badge.json)](https://github.com/Antai-Liu/repropilot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ![ReproPilot demo](demo.gif)
